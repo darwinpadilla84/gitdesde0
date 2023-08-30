@@ -1,0 +1,21 @@
+ls #Identificar todos los archivos en la ruta actual
+pwd #Identifica el lugar de trabajo (path)
+cd #permite ingresar en las carpetas inmediantemente siguientes
+cd.. #retrocede de la carpeta actual a la inmediatamente anterior
+mkdir "" #Crea una carpeta, recordar luego ingresar con cd
+clear #limpia consola
+########## Creación de programa en visual code
+
+code . #abre la terminal de code studio
+git config --global user.name "padillad" # Configuración del usuario para iniciar un proyecto
+git config --global user.email "padillad@fiscalia.gob.ec" # Configuración del mail para iniciar un proyecto
+touch hellogit.py #crea un fichero en python
+#### instalar mejoras en comandos con colores
+https://ohmyz.sh/#install
+#### Iniciar con el control de cambios
+git init #crea la carpeta ocualta .git para iniciar con el control
+git branch -m main #renombra la ruta de master a main
+git status #permite ver el estado actual del proyecto
+git add hellogit.py #añade al fichero en el versionamiento
+git add . #añade TODOS los fichero en el versionamiento
+git commit -m "Este es mi primer commit" #sirve para ir añadiendo comentarios de forma directa
