@@ -19,3 +19,8 @@ git status #permite ver el estado actual del proyecto
 git add hellogit.py #añade al fichero en el versionamiento
 git add . #añade TODOS los fichero en el versionamiento
 git commit -m "Este es mi primer commit" #sirve para ir añadiendo comentarios de forma directa
+git log #revisa los cambios realizados en los comentarios
+git add hellogit2.py #agrega otro fichero al main
+git commit -m "Este es mi segundo commit" #Genera un segundo momento para el comentario
+git checkout hellopy2.py #retorna antes de haber guardado la última vez
+git reset #regresa al inicio de cuando se creó el archivo
